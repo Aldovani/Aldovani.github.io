@@ -1,25 +1,7 @@
-#title {
-  display: inline-block;
-  width: 630px;
-  height: 185px;
-  background-color: #7f8c8d;
-  box-shadow: 10px 10px 0px #000;
-  margin-top: 116px;
-  margin-left: 91px;
-}
 
 h1 {
   color: #e67e22;
-  font-size: 3  0px;
-  font-family: "Press Start 2P", Arial, sans-serif;
+  font-size: 30px;
+  font-family: "Press Start 2P",  sans-serif;
   text-shadow: 4px 4px 0px #2c3e50;
-  /* margin: 42px 61px 18px 50px; */
-}
-
-#title h2 {
-  color: #fff;
-  font-size: 27px;
-  font-weight: 400;
-  font-family: "Press Start 2P", Arial, sans-serif;
-  margin: 30px 42px 38px 40px;
 }
