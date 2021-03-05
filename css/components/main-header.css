@@ -1,4 +1,4 @@
-.header {
+.main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,7 +7,7 @@
   padding: 10px 20px;
 }
 
-.header .logo {
+.main-header .logo {
   color: #e67e22;
   font-size: 40px;
   font-family: "Press Start 2P",  sans-serif;
