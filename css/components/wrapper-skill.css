@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   max-width: 960px;
   margin-right: auto;
+  
   margin-left: auto;}
 
 .wrapper-skill .skill-tec{
@@ -13,6 +14,6 @@
  margin-right: 100px;
 }
 
-.wrapper-skill .progresse-bar{
+.wrapper-skill .progress-bar{
   width: 320px;
 }
