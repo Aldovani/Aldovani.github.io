@@ -1,3 +1,9 @@
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
 body{
   font-family:"Fira Code",Arial,sans-serif;
 }
@@ -11,4 +17,3 @@ button{
   font-family:inherit;
   border: none;
 }
-

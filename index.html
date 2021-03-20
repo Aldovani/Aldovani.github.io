@@ -32,14 +32,14 @@
 </head>
 
 <body>
-  <header class="main-header">
+  <header id="header" class="main-header">
     <h1 class="logo">AH</h1>
     <nav class="navegation">
-      <a class="main-action" href="" lang="en">Skills</a>
-      <a class="main-action" href="">Projetos</a>
-      <a class="main-action" href="">Sobre</a>
-      <a class="main-action" href="">Contatos</a>
-      <a class="main-button" href="" lang="en">Download CV</a>
+      <a class="main-action" href="#skill" lang="en">Skills</a>
+      <a class="main-action" href="#projetos">Projetos</a>
+      <a class="main-action" href="#sobre">Sobre</a>
+      <a class="main-action" href="#contatos">Contatos</a>
+      <a class="main-button" href="src/download/Aldovani Henrique.pdf" download="CV Aldovani" lang="en">Download CV</a>
     </nav>
   </header>
 
@@ -50,12 +50,12 @@
         <h2 class="main-subtitle">FrontEnd Developer</h2>
       </div>
       <div class="navegation">
-        <a class="main-button" href="" lang="en">Download CV</a>
-        <a href="" class="main-button">Contatos</a>
+        <a class="main-button" href="src/download/Aldovani Henrique.pdf" download="CV Aldovani" lang="en">Download CV</a>
+        <a href="#contatos" class="main-button">Contatos</a>
       </div>
     </div>
   </section>
-  <section class="main-section">
+  <section id="skill" class="main-section">
     <h2 class="main-title -second">Skills</h2>
     <div class="wrapper-skill">
       <article class="skill-tec">
@@ -103,29 +103,29 @@
 
     </div>
   </section>
-  <section class="main-section -bgBlack -bdColor">
+  <section id="projetos" class="main-section -bgBlack -bdColor">
     <h2 class="main-title -second">Projetos</h2>
 
     <div class="wrapper-card">
       <a href="https://aluraquiz-eta.vercel.app/" target="_blank">
         <figure class="card-project">
-          <img src="" alt="Logo  AluraQuiz" />
+          <img src="img/icon-alura.png" alt="Logo  AluraQuiz" />
         </figure>
       </a>
       <a href="https://moveit-seven-olive.vercel.app/" target="_blank">
         <figure class="card-project -blue">
-          <img src="img/favicon.png" style="background-size:100%" alt="Logo Move|.it" />
+          <img src="img/moveit.png"alt="Logo Move|.it" />
         </figure>
       </a>
       <a href="https://aldovani.github.io/">
-        <figure class="card-project">
-          <img src="" alt="Logo Portfolio">
+        <figure class="card-project -grey">
+          <h1 class="logo">AH</h1>
         </figure>
       </a>
     </div>
   </section>
 
-  <section class="main-section -bgSecond -bdBlack">
+  <section id="sobre" class="main-section -bgSecond -bdBlack">
 
     <h2 class="main-title -second ">Sobre</h2>
 
@@ -202,7 +202,7 @@
   </section>
 
 
-  <form class="main-form">
+  <form id="contatos" class="main-form">
     <legend class="main-title -second">Contatos</legend>
     <label class="main-label" for="name">Nome</label>
     <input class="main-input" type="text" name="" id="name" required>
@@ -219,6 +219,7 @@
 
   <footer class="main-footer">
 
+    <a class="main-action -arrow-up" href="#header"></a>
     <a class="action" target="_blank" href="https://twitter.com/AAldovani">
       <img src="img/icon-twitter 1.png" alt="Logo do twitter em pixel art">
     </a>
@@ -227,9 +228,10 @@
       <img src="img/icon-instagram.png" alt="Logo do instagram em pixel art">
     </a>
 
-    <script src="js/components/main-carousel.js"></script>
   </footer>
-
+  
+  
+  
 </body>
 
 </html>
